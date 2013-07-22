@@ -1,0 +1,44 @@
+﻿body { font-family:Verdana; }
+li { list-style-type:none; cursor:pointer; }
+strong { font-weight:bold }
+input { background:inherit; font-size:1em; border:none; padding: 0px; margin:0px; }
+            
+.del { float:right; padding-right:10px; margin-top:1px; color: #FFFFFF;}
+.del:hover { color:#0000AA; }
+.delO { float:right; padding-right:10px; margin-top:1px; color: #FFFFFF;}
+.delO:hover { color:#0000AA; }
+.help { float:left; font-size:200px; color:#ffffff; width:100%; text-align:center; }
+.inputContainer { width:800px; margin: 0px auto; padding-bottom:20px; margin-top:110px; }
+.inputContainer input { border: 1px solid black; }
+.item { padding:0px 0px 0px 10px; }
+.item:hover { background-color:#DDDDDD; }
+.line { border-bottom:1px dotted; width:100%; margin-bottom:1px; }
+.loadBtn { margin: 0px 10px 0px 50px; height:22px;width:94px;  color:#0000AA; cursor:pointer; }
+.min { position:relative; z-index:10; cursor:pointer; background-color:#DDDDDD;  }
+.save { float:right; padding-right:10px; margin-top:1px; color: #FFFFFF; }
+.save:hover { color:#0000AA; }
+.tab { display:inline-block; margin-right: 11px; border:1px dotted #000; color:#0000AA; margin-bottom:-1px; background-color:#FFF; padding:5px 5px 2px 5px; cursor:pointer; }
+.t0, .t1, .t2, .t3 { border:1px dotted; border-color:#FFFFFF; padding: 5px 20px 5px 20px; word-wrap:break-word; }
+.t0:hover,.t1:hover, .t2:hover, .t3:hover { border:1px dotted; border-color:#333333; } /* TODO: More Tiers */
+.val { color:#0000AA; }
+            
+
+#directJson { display:none; margin-top:10px; border:1px dotted black; }
+#getInput { display:none; border-top:1px dotted; margin-top:120px; padding-top:20px;  }
+#headContainer { width:800px; margin: 0px auto; text-align:center; }
+#interactiveJson { border-top:1px dotted; padding-top:20px; }
+#nav { list-style:none; margin-bottom:10px; float:left; width:100%; }
+#nav li {float:left; margin-right:10px; position:relative; }
+#nav a { display:block; padding:7px 5px 2px 0px; color:#0000AA; text-decoration:none; border-bottom:1px dotted; border-color:#FFFFFF; }
+#nav a:hover { border-color:#0000AA; }
+#nav ul { background:rgba(255,255,255,0); list-style:none; position:absolute; left:-9999px; }
+#nav ul li { padding-top:1px; float:none; text-align:left; }
+#nav ul a { white-space:nowrap; }
+#nav li:hover ul { left:0; }
+#nav li:hover a { cursor:pointer;  }
+#nav li:hover ul a { text-decoration:none; }
+#nav li:hover ul li a { border-bottom:1px dotted; border-color:#FFFFFF;}
+#nav li:hover ul li a:hover { border-bottom:1px dotted; border-color:#0000AA;}
+#resultsContainer { width:800px; margin: 0px auto; padding-bottom:20px; padding-top:5px;}
+#textInput { display:none; border:10px solid red; }
+#updateFromDirect { cursor: pointer; border:1px dotted; width: 50px; padding:10px; margin-top:10px; }
